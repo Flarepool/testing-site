@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+li { color:#a5a500;
+}
+h2 { color:#a5a500;
+}
+#1 {
+}
+#b1 {
+  background-color: green;
+}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nathaniel Drakes assignment 2</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body style="background-color:#050505; height: 10000px;">
+<h2>My favorite foods</h2>
+<ol>
+ <li>pizza</li>
+ <li>wings</li>
+ <li>spagheti</li>
+ <li>muffin</li>
+ <li>zuppa tascona</li>
+</ol>
+<script>
+function myFunction() {
+  var x = document.getElementById("1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<h2>movies for life</h2>
+<ul>
+ <li>zombieland: doubletap</li>
+ <li>space jam</li>
+ <li>bill nye the science pie</li>
+</ul>
+<p style="position:sticky; top:0;"><button id="b1" onclick="myFunction()">image out/in</button></p>
+<div style="position:sticky; top:37px;" id="1"><img style="width:60%;border:30px solid #101010;" src="https://media.giphy.com/media/f2uJ1pbidyrEA/giphy.gif"></div>
+</body>
+</html>
